@@ -1,0 +1,35 @@
+﻿@model IEnumerable<myShop.Entities.ViewModels.ProductVM>
+
+
+@{
+    ViewBag.PageTitle = "Product Managment";
+    ViewBag.CardTitle = "View Product";
+    Layout = "~/Views/Shared/_DashBoard.cshtml";
+}
+
+
+
+
+<table id="mytable" class="table table-hover" width="100%">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Price</td>
+            <td>Category</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+
+
+
+
+</table>
+
+<div style="padding-bottom: 20px;">
+    <a asp-area="Admin" asp-action="Create" asp-controller="Product" class="btn btn-warning">Create Product</a>
+</div>
+
+@section Scripts {
+    <SCript src="~/js/products.js"></SCript>
+}

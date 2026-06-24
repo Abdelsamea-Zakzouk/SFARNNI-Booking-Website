@@ -1,0 +1,31 @@
+﻿@model IEnumerable<myShop.Entities.ViewModels.FlightProductVM>
+@{
+    ViewBag.PageTitle = "Flight Management";
+    ViewBag.CardTitle = "View Flights";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<table id="flightTable" class="table table-hover" width="100%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Ticket Price</th>
+            <th>Departure Location</th>
+            <th>Destination Location</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- The DataTable will populate this section via AJAX -->
+    </tbody>
+</table>
+
+<div style="padding-bottom: 20px;">
+    <a asp-area="Admin" asp-action="Create" asp-controller="FlightProduct" class="btn btn-warning">Create Flight</a>
+</div>
+
+@section Scripts {
+    <script src="~/js/flightProduct.js"></script> <!-- Load the flightProduct.js script -->
+}

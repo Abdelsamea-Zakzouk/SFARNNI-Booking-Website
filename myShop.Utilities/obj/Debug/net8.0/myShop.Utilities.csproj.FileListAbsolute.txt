@@ -1,0 +1,48 @@
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.deps.json
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.dll
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.pdb
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.AssemblyReference.cache
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfoInputs.cache
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfo.cs
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.CoreCompileInputs.cache
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.dll
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\refint\myShop.Utilities.dll
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.pdb
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.Utilities\obj\Debug\net8.0\ref\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.deps.json
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.pdb
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\refint\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.pdb
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.Utilities\obj\Debug\net8.0\ref\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.deps.json
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.pdb
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\refint\myShop.Utilities.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.pdb
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.Utilities\obj\Debug\net8.0\ref\myShop.Utilities.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.deps.json
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\bin\Debug\net8.0\myShop.Utilities.pdb
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.AssemblyReference.cache
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfoInputs.cache
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfo.cs
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\refint\myShop.Utilities.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\myShop.Utilities.pdb
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.Utilities\obj\Debug\net8.0\ref\myShop.Utilities.dll

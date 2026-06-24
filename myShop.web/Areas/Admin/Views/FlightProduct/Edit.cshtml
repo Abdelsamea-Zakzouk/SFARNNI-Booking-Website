@@ -1,0 +1,47 @@
+﻿@model FlightProductVM
+@{
+    ViewBag.PageTitle = "Flight Management";
+    ViewBag.CardTitle = "Edit Flight";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<form method="post" enctype="multipart/form-data" asp-action="Edit">
+    <input type="hidden" asp-for="FlightProduct.Id">
+
+    <div class="mb-3">
+        <label asp-for="FlightProduct.Name"></label>
+        <input asp-for="FlightProduct.Name" class="form-control">
+        <span asp-validation-for="FlightProduct.Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="FlightProduct.Description"></label>
+        <input asp-for="FlightProduct.Description" class="form-control">
+        <span asp-validation-for="FlightProduct.Description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="FlightProduct.TicketPrice"></label>
+        <input asp-for="FlightProduct.TicketPrice" class="form-control">
+        <span asp-validation-for="FlightProduct.TicketPrice" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="FlightProduct.LocationFrom"></label>
+        <input asp-for="FlightProduct.LocationFrom" class="form-control">
+        <span asp-validation-for="FlightProduct.LocationFrom" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="FlightProduct.LocationTo"></label>
+        <input asp-for="FlightProduct.LocationTo" class="form-control">
+        <span asp-validation-for="FlightProduct.LocationTo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FlightProduct.CategoryId" class="control-label"></label>
+        <select asp-for="FlightProduct.CategoryId" asp-items="Model.CategoryList" class="form-control">
+            <option disabled selected>-- Select Category --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <input type="submit" class="btn btn-success" value="Save">
+        <a asp-action="Index" asp-controller="FlightProduct" class="btn btn-warning">Back To Index</a>
+    </div>
+</form>

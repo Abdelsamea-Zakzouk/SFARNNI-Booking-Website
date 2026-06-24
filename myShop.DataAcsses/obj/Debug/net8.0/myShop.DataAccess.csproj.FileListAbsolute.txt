@@ -1,0 +1,68 @@
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.deps.json
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.runtimeconfig.json
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.dll
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.pdb
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.dll
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.pdb
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.AssemblyReference.cache
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfoInputs.cache
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfo.cs
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.CoreCompileInputs.cache
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.D.BF31A137.Up2Date
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.dll
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\refint\myShop.DataAccess.dll
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.pdb
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.genruntimeconfig.cache
+E:\FullStack (projects&hints)\backend\ASP.NET MVC CORE\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\ref\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.deps.json
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.runtimeconfig.json
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.pdb
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.pdb
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.D.BF31A137.Up2Date
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\refint\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.pdb
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.genruntimeconfig.cache
+C:\Users\moham\OneDrive\Desktop\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\ref\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.deps.json
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.runtimeconfig.json
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.pdb
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.pdb
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.D.BF31A137.Up2Date
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\refint\myShop.DataAccess.dll
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.pdb
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.genruntimeconfig.cache
+C:\Users\moham\OneDrive\Desktop\studdy\mvc train\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\ref\myShop.DataAccess.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.deps.json
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.runtimeconfig.json
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.DataAccess.pdb
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\bin\Debug\net8.0\myShop.Entities.pdb
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.AssemblyReference.cache
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.AssemblyInfo.cs
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.D.BF31A137.Up2Date
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\refint\myShop.DataAccess.dll
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.pdb
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\myShop.DataAccess.genruntimeconfig.cache
+C:\Users\moham\Downloads\Telegram Desktop\myShopProject (2)\myShopProject\myShop.DataAcsses\obj\Debug\net8.0\ref\myShop.DataAccess.dll

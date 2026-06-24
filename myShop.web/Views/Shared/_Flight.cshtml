@@ -1,0 +1,137 @@
+﻿@using myshop.Utilities
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>SFARNNI - Hotel and Flight Observation</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="~/flight/css/styles.css" rel="stylesheet" />
+    <style>
+        /* Custom Header Styling */
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: #555;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            color: #007bff;
+        }
+
+        .navbar-toggler {
+            border-color: #007bff;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/icons/list.svg');
+        }
+
+        .btn-outline-dark {
+            border-color: #007bff;
+            color: #007bff;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-dark:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#!">SFARNNI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <!-- Role-based Links -->
+                    @if (User.IsInRole(SD.AdminRole))
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-area="Flight" asp-controller="Home"
+                                asp-action="Index">User View</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">Admin Options</a>
+                            <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Create">Hotel Management</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="FlightProduct" asp-action="Create">Flight Management</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Users" asp-action="Index">User Management</a></li>
+                            </ul>
+                        </li>
+                           <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">Customer Host View</a>
+                            <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                                <li><a class="dropdown-item" asp-area="Customer" asp-controller="Home" asp-action="Index"> Host Hotel</a></li>
+                                <li><a class="dropdown-item" asp-area="Flight" asp-controller="Home" asp-action="Index">Host Flight</a></li>
+                               
+                            </ul>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">Host</a>
+                            <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                                <li><a class="dropdown-item" asp-area="Customer" asp-controller="Home" asp-action="Index"> Host Hotel</a></li>
+                                <li><a class="dropdown-item" asp-area="Flight" asp-controller="Home" asp-action="Index">Host Flight</a></li>
+                               
+                            </ul>
+                        </li>
+                    }
+                </ul>
+                <!-- Login Partial and Cart Icon -->
+                <partial name="_LoginPartial" />
+                <form class="d-flex">
+                    <a href="/Flight/Cart/Index" class="btn btn-outline-dark">
+                        <i class="bi-cart-fill me-1"></i>
+                        Cart
+                    </a>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section-->
+    @RenderBody()
+
+    <!-- Footer-->
+    <!-- <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p>
+        </div>
+    </footer> -->
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="~/flight/js/scripts.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

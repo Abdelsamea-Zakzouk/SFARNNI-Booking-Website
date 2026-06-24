@@ -1,0 +1,33 @@
+﻿@model HostFlight
+
+<form method="post">
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <input hidden asp-for="FlightProductId">
+                <!-- Flight details -->
+                <div class="col-md-12">
+                    <!-- Category display -->
+                    <div class="small mb-2 text-muted">@Model.FlightProduct.Category.Name</div>
+                    <!-- Flight name -->
+                    <h1 class="display-5 fw-bold text-primary mb-3">@Model.FlightProduct.Name</h1>
+                    <!-- Ticket price -->
+                    <div class="fs-4 text-success fw-bold mb-3">$@Model.FlightProduct.TicketPrice</div>
+                    <!-- Locations and Description -->
+                    <p class="lead mb-1">From: @Model.FlightProduct.LocationFrom</p>
+                    <p class="lead mb-1">To: @Model.FlightProduct.LocationTo</p>
+                    <p class="text-muted mt-3">@Model.FlightProduct.Description</p>
+
+                    <!-- Action button for booking or further action -->
+                    <div class="d-flex align-items-center">
+                        <input class="form-control text-center me-3" id="inputQuantity" asp-for="Count"
+                            style="max-width: 3rem;">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-house-door me-1"></i>
+                            Host Now
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

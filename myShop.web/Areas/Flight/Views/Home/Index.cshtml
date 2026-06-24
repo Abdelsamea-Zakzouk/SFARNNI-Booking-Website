@@ -1,0 +1,89 @@
+﻿@model IEnumerable<FlightProduct>
+
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5">
+        <!-- Search Form -->
+        <div class="card mb-5 shadow border-0">
+            <div class="card-body">
+                <h3 class="text-center text-primary mb-4">Find Your Perfect Flight</h3>
+            <form method="get" asp-action="Index" asp-controller="Home" asp-area="Flight">
+                <div class="row g-3">
+                    <div class="col-lg-3 col-md-6">
+                        <input type="text" name="searchTerm" class="form-control" placeholder="Search flights by name" />
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <input type="text" name="locationFrom" class="form-control" placeholder="From Location" />
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <input type="text" name="locationTo" class="form-control" placeholder="To Location" />
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <input type="number" name="minTicketPrice" class="form-control" placeholder="Min Price" step="0.01" />
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <input type="number" name="maxTicketPrice" class="form-control" placeholder="Max Price" step="0.01" />
+                    </div>
+                    <div class="col-lg-2">
+                        <button class="btn btn-primary w-100" type="submit">
+                            <i class="bi bi-search"></i> Search
+                        </button>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+
+        <!-- Search Results -->
+        @if (ViewBag.SearchResults is List<FlightProduct> searchResults && searchResults.Any())
+        {
+            <h4 class="text-primary mb-4">Search Results:</h4>
+            <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
+                @foreach (var item in searchResults)
+                {
+                    <div class="col mb-5">
+                        <div class="card shadow-sm border-0 h-100">
+                            <div class="card-body p-4 text-center">
+                                <a href="/Flight/Home/Details/@item.Id" class="text-decoration-none">
+                                    <h5 class="fw-bold text-primary mb-2">@item.Name</h5>
+                                </a>
+                                <p class="text-muted mb-1">From: @item.LocationFrom</p>
+                                <p class="text-muted mb-1">To: @item.LocationTo</p>
+                                <p class="h6 text-success fw-bold">$@item.TicketPrice</p>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center">
+                                    <a class="btn btn-outline-primary mt-auto" href="/Flight/Home/Details/@item.Id">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+
+        <!-- Original Flight Listings -->
+        <h4 class="text-primary mb-4">All Flights:</h4>
+        <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
+            @foreach (var item in Model)
+            {
+                <div class="col mb-5">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-body p-4 text-center">
+                            <a href="/Flight/Home/Details/@item.Id" class="text-decoration-none">
+                                <h5 class="fw-bold text-primary mb-2">@item.Name</h5>
+                            </a>
+                            <p class="text-muted mb-1">From: @item.LocationFrom</p>
+                            <p class="text-muted mb-1">To: @item.LocationTo</p>
+                            <p class="h6 text-success fw-bold">$@item.TicketPrice</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-primary mt-auto" href="/Flight/Home/Details/@item.Id">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

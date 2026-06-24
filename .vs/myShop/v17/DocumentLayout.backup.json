@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack (projects\u0026hints)\\backend\\ASP.NET MVC CORE\\myShopProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC376FE-CDFB-4934-AA3D-F8EEA9EF4C69}|myShop.web\\myShop.web.csproj|e:\\fullstack (projects\u0026hints)\\backend\\asp.net mvc core\\myshopproject\\myshop.web\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC376FE-CDFB-4934-AA3D-F8EEA9EF4C69}|myShop.web\\myShop.web.csproj|solutionrelative:myshop.web\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC376FE-CDFB-4934-AA3D-F8EEA9EF4C69}|myShop.web\\myShop.web.csproj|e:\\fullstack (projects\u0026hints)\\backend\\asp.net mvc core\\myshopproject\\myshop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC376FE-CDFB-4934-AA3D-F8EEA9EF4C69}|myShop.web\\myShop.web.csproj|solutionrelative:myshop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack (projects\u0026hints)\\backend\\ASP.NET MVC CORE\\myShopProject\\myShop.web\\Program.cs",
+              "RelativeDocumentMoniker": "myShop.web\\Program.cs",
+              "ToolTip": "E:\\FullStack (projects\u0026hints)\\backend\\ASP.NET MVC CORE\\myShopProject\\myShop.web\\Program.cs",
+              "RelativeToolTip": "myShop.web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T02:37:11.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "connection.cs",
+              "DocumentMoniker": "E:\\FullStack (projects\u0026hints)\\backend\\ASP.NET MVC CORE\\myShopProject\\myShop.web\\connection.cs",
+              "RelativeDocumentMoniker": "myShop.web\\connection.cs",
+              "ToolTip": "E:\\FullStack (projects\u0026hints)\\backend\\ASP.NET MVC CORE\\myShopProject\\myShop.web\\connection.cs",
+              "RelativeToolTip": "myShop.web\\connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T02:37:15.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

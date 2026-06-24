@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Product>
+
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5">
+
+        <!-- Search Form -->
+        <div class="card mb-5 shadow border-0">
+            <div class="card-body">
+                <h3 class="text-center text-primary mb-4">Find Your Perfect Hotel</h3>
+                <form asp-action="Index" method="get">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+                            <input type="text" name="searchTerm" class="form-control" placeholder="Search by name"
+                                aria-label="Search by name" />
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <input type="text" name="location" class="form-control" placeholder="Search by location"
+                                aria-label="Search by location" />
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <input type="number" name="minPrice" class="form-control" placeholder="Min Price"
+                                step="0.01" aria-label="Minimum price" />
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <input type="number" name="maxPrice" class="form-control" placeholder="Max Price"
+                                step="0.01" aria-label="Maximum price" />
+                        </div>
+                        <div class="col-lg-2">
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="bi bi-search"></i> Search
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Search Results -->
+        @if (ViewBag.SearchResults is List<Product> searchResults && searchResults.Any())
+        {
+            <div class="mb-5">
+                <h4 class="text-primary mb-4">Search Results</h4>
+                <div class="row g-4">
+                    @foreach (var result in searchResults)
+                    {
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card h-100 shadow border-0">
+                                <a href="/Customer/Home/Details/@result.Id" class="text-decoration-none">
+                                    <img class="card-img-top rounded-top" src="~/@result.Image" alt="@result.Name"
+                                        style="height: 200px; object-fit: cover;" />
+                                </a>
+                                <div class="card-body text-center">
+                                    <h5 class="fw-bold text-dark mb-1">@result.Name</h5>
+                                    <p class="text-muted mb-2 small">@result.Location</p>
+                                    <p class="text-success fw-bold">$@result.PricePerNight/night</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-0">
+                                    <a href="/Customer/Home/Details/@result.Id" class="btn btn-outline-primary w-100">
+                                        View Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+
+
+        <!-- All Products -->
+        <div>
+            <h3 class="text-primary mb-4">All Hotels</h3>
+            <div class="row g-4">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card h-100 shadow border-0">
+                            <a href="/Customer/Home/Details/@item.Id" class="text-decoration-none">
+                                <img class="card-img-top rounded-top" src="~/@item.Image" alt="@item.Name"
+                                    style="height: 200px; object-fit: cover;" />
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="fw-bold text-dark mb-1">@item.Name</h5>
+                                <p class="text-muted mb-2 small">@item.Location</p>
+                                <p class="text-success fw-bold">$@item.PricePerNight/night</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0">
+                                <a href="/Customer/Home/Details/@item.Id" class="btn btn-outline-primary w-100">
+                                    View Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

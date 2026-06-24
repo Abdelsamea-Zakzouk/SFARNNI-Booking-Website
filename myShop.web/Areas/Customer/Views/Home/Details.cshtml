@@ -1,0 +1,53 @@
+﻿@model HostHotel
+
+<form method="post">
+<section class="py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <input hidden asp-for="ProductId">
+            <!-- Product image-->
+            <div class="col-md-6">
+                @if (Model.Product != null && Model.Product.Image != null)
+                {
+                    <img class="card-img-top mb-5 mb-md-0 rounded shadow-sm" 
+                         src="~/@Model.Product.Image"
+                         alt="Product Image" 
+                         style="width:100%; height:400px; object-fit:cover;" />
+                }
+                else
+                {
+                    <img class="card-img-top mb-5 mb-md-0 rounded shadow-sm" 
+                         src="~/path/to/default-image.jpg" 
+                         alt="Default Product Image" 
+                         style="width:100%; height:400px; object-fit:cover;" />
+                }
+            </div>
+            <!-- Product details-->
+            <div class="col-md-6">
+                @if (Model.Product != null && Model.Product.Category != null)
+                {
+                    <div class="small mb-2 text-muted">@Model.Product.Category.Name</div>
+                    <h1 class="display-5 fw-bold text-primary mb-3">@Model.Product.Name</h1>
+                    <div class="fs-4 text-success fw-bold mb-3">$@Model.Product.PricePerNight / night</div>
+                    <p class="lead mb-1">@Model.Product.Location</p>
+                    <p class="text-muted">@Model.Product.Description</p>
+                }
+                else
+                {
+                    <p>Product details are unavailable.</p>
+                }
+
+                <!-- Product action button-->
+                <div class="d-flex align-items-center">
+                    <input class="form-control text-center me-3" id="inputQuantity" asp-for="Count"
+                        style="max-width: 3rem;">
+                    <button class="btn btn-outline-primary" type="submit">
+                        <i class="bi bi-house-door me-1"></i>
+                        Host Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</form>

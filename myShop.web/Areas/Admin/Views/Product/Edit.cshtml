@@ -1,0 +1,58 @@
+﻿@model ProductVM
+@{
+    ViewBag.PageTitle = "Product Management";
+    ViewBag.CardTitle = "Edit Product";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<form method="post" enctype="multipart/form-data" asp-action="Edit">
+<input type="hidden" asp-for="Product.Id">
+<input type="hidden" asp-for="Product.Image">
+
+    <div class="mb-3">
+        <label asp-for="Product.Name"></label>
+        <input asp-for="Product.Name" class="form-control">
+        <span asp-validation-for="Product.Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Product.Description"></label>
+        <input asp-for="Product.Description" class="form-control">
+        <span asp-validation-for="Product.Description" class="text-danger"></span>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Product.PricePerNight"></label>
+        <input asp-for="Product.PricePerNight" class="form-control">
+        <span asp-validation-for="Product.PricePerNight" class="text-danger"></span>
+    </div>
+     <div class="mb-3">
+        <label asp-for="Product.Location"></label>
+        <input asp-for="Product.Location" class="form-control">
+        <span asp-validation-for="Product.Location" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Product.Image"></label>
+        <input type="file" name="file" id="imgfile" class="form-control">
+
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="Product.CategoryId" class="control-label"></label>
+        <select asp-for="Product.CategoryId" asp-items="Model.CategoryList" class="form-control">
+            <option disabled selected>-- Select Category --</option>
+        </select>
+
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-success" value="Save">
+        <a asp-action="Index" asp-controller="Product" class="btn btn-warning">Back To Index</a>
+
+    </div>
+
+</form>
+
+ <div class="col-md-4"> 
+        <div class="container" >
+            <img id="ImagePrevew" src="~/@Model.Product.Image" width="300" height="300"/>
+        </div>
+    </div>
+
